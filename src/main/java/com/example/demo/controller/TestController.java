@@ -10,4 +10,11 @@ public class TestController {
 	String main() {
 		return "main";
 	}
+
+	@RequestMapping("login")
+	public String login() {
+		
+		return "login";
+	}
+	
 }
