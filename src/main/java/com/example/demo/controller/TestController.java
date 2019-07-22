@@ -13,4 +13,10 @@ public class TestController {
 		return "main";
 	}
 
+
+	@RequestMapping("/login")
+	public String login() {
+		return"login";
+	}
+
 }
