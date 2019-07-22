@@ -10,12 +10,17 @@ public class TestController {
 	public String login() {
 		return "login";
 	}
-	
+
 	@RequestMapping("/main")
 	public String main(String user_id, String password) {
 		System.out.println(user_id);
 		System.out.println(password);
 		return "main";
+	}
+
+	@RequestMapping("/board")
+	public String board() {
+		return "board";
 	}
 
 }
